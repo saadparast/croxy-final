@@ -1,0 +1,18 @@
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+ReferenceError: require is not defined in ES module scope, you can use import instead
+This file is being treated as an ES module because it has a '.js' file extension and '/home/user/webapp/package.json' contains "type": "module". To treat it as a CommonJS script, rename it to use the '.cjs' file extension.
+    at file:///home/user/webapp/backend-server.js:1:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:263:25)
+    at async ModuleLoader.import (node:internal/modules/esm/loader:540:24)
+You have triggered an unhandledRejection, you may have forgotten to catch a Promise rejection:
+Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/home/user/webapp/backend-server.js' imported from /usr/lib/node_modules/pm2/lib/ProcessContainer.js
+    at finalizeResolution (node:internal/modules/esm/resolve:283:11)
+    at moduleResolve (node:internal/modules/esm/resolve:952:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1188:11)
+    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:642:12)
+    at #cachedDefaultResolve (node:internal/modules/esm/loader:591:25)
+    at ModuleLoader.resolve (node:internal/modules/esm/loader:574:38)
+    at ModuleLoader.getModuleJobForImport (node:internal/modules/esm/loader:236:38)
+    at ModuleLoader.import (node:internal/modules/esm/loader:539:34)
+    at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:234:31)
+    at importModuleDynamicallyCallback (node:internal/modules/esm/utils:256:12)

@@ -1,0 +1,74 @@
+2025-08-22T14:09:34: 
+2025-08-22T14:09:34: > croxy-exim-website@0.0.0 dev
+2025-08-22T14:09:34: > vite
+2025-08-22T14:09:34: 
+2025-08-22T14:09:35: 
+2025-08-22T14:09:35:   VITE v6.3.5  ready in 958 ms
+2025-08-22T14:09:35: 
+2025-08-22T14:09:35:   ➜  Local:   http://localhost:5173/
+2025-08-22T14:09:35:   ➜  Network: use --host to expose
+2025-08-22T14:32:02: 2:32:02 PM [vite] vite.config.js changed, restarting server...
+2025-08-22T14:32:02: Port 5173 is in use, trying another one...
+2025-08-22T14:32:02: 2:32:02 PM [vite] server restarted.
+2025-08-22T14:32:02: 
+2025-08-22T14:32:02:   ➜  Local:   http://localhost:5174/
+2025-08-22T14:32:02:   ➜  Network: http://169.254.0.21:5174/
+2025-08-22T14:32:10: 
+2025-08-22T14:32:10: > croxy-exim-website@0.0.0 dev
+2025-08-22T14:32:10: > vite
+2025-08-22T14:32:10: 
+2025-08-22T14:32:11: 
+2025-08-22T14:32:11:   VITE v6.3.5  ready in 1170 ms
+2025-08-22T14:32:11: 
+2025-08-22T14:32:11:   ➜  Local:   http://localhost:5173/
+2025-08-22T14:32:11:   ➜  Network: http://169.254.0.21:5173/
+2025-08-22T14:42:13: 2:42:13 PM [vite] (client) hmr update /src/App.jsx, /src/App.css
+2025-08-22T14:42:28: 2:42:28 PM [vite] (client) hmr update /src/App.jsx, /src/App.css
+2025-08-22T14:45:53: 2:45:53 PM [vite] (client) hmr update /src/App.jsx, /src/App.css
+2025-08-22T14:46:02: 2:46:02 PM [vite] (client) hmr update /src/App.jsx, /src/App.css
+2025-08-22T14:46:16: 2:46:16 PM [vite] (client) hmr update /src/pages/Products.jsx, /src/App.css
+2025-08-22T14:48:12: 2:48:12 PM [vite] (client) hmr update /src/pages/Contact.jsx, /src/App.css
+2025-08-22T14:48:24: 2:48:24 PM [vite] (client) hmr update /src/pages/Contact.jsx, /src/App.css
+2025-08-22T14:48:33: 
+2025-08-22T14:48:33: > croxy-exim-website@0.0.0 dev
+2025-08-22T14:48:33: > vite
+2025-08-22T14:48:33: 
+2025-08-22T14:48:34: 
+2025-08-22T14:48:34:   VITE v6.3.5  ready in 969 ms
+2025-08-22T14:48:34: 
+2025-08-22T14:48:34:   ➜  Local:   http://localhost:5173/
+2025-08-22T14:48:34:   ➜  Network: http://169.254.0.21:5173/
+2025-08-22T14:55:32: 2:55:32 PM [vite] (client) hmr update /src/components/WhatsAppButton.jsx, /src/App.css
+2025-08-22T14:55:59: 2:55:59 PM [vite] (client) hmr update /src/App.css
+2025-08-22T14:56:24: 2:56:24 PM [vite] (client) hmr update /src/pages/Home.jsx, /src/App.css, /src/pages/Products.jsx, /src/pages/ProductDetail.jsx
+2025-08-22T14:56:30: 2:56:30 PM [vite] (client) hmr update /src/pages/Home.jsx, /src/App.css, /src/pages/Products.jsx, /src/pages/ProductDetail.jsx
+2025-08-22T14:56:49: 
+2025-08-22T14:56:49: > croxy-exim-website@0.0.0 dev
+2025-08-22T14:56:49: > vite
+2025-08-22T14:56:49: 
+2025-08-22T14:56:50: 
+2025-08-22T14:56:50:   VITE v6.3.5  ready in 890 ms
+2025-08-22T14:56:50: 
+2025-08-22T14:56:50:   ➜  Local:   http://localhost:5173/
+2025-08-22T14:56:50:   ➜  Network: http://169.254.0.21:5173/
+2025-08-22T14:58:17: 
+2025-08-22T14:58:17: > croxy-exim-website@0.0.0 dev
+2025-08-22T14:58:17: > vite
+2025-08-22T14:58:17: 
+2025-08-22T14:58:18: 
+2025-08-22T14:58:18:   VITE v6.3.5  ready in 885 ms
+2025-08-22T14:58:18: 
+2025-08-22T14:58:18:   ➜  Local:   http://localhost:5173/
+2025-08-22T14:58:18:   ➜  Network: http://169.254.0.21:5173/
+2025-08-22T14:59:23: 2:59:23 PM [vite] (client) hmr update /src/pages/Contact.jsx, /src/App.css
+2025-08-22T14:59:35: 2:59:35 PM [vite] (client) hmr update /src/pages/Contact.jsx, /src/App.css
+2025-08-22T14:59:42: 2:59:42 PM [vite] (client) hmr update /src/pages/Contact.jsx, /src/App.css
+2025-08-22T14:59:51: 
+2025-08-22T14:59:51: > croxy-exim-website@0.0.0 dev
+2025-08-22T14:59:51: > vite
+2025-08-22T14:59:51: 
+2025-08-22T14:59:52: 
+2025-08-22T14:59:52:   VITE v6.3.5  ready in 920 ms
+2025-08-22T14:59:52: 
+2025-08-22T14:59:52:   ➜  Local:   http://localhost:5173/
+2025-08-22T14:59:52:   ➜  Network: http://169.254.0.21:5173/

@@ -1,0 +1,39 @@
+"use strict";
+
+(function () {
+/*!
+YAAS Player
+Copyright (c) 2023, YAAS Player, Performoo, All Rights Reserved
+This source code and its use and distribution is subject to the terms
+and conditions of the applicable license agreement.
+https://media-b.performoo.com/tos/performoo-terms-of-services-mar172021.html
+This product includes portions of other software. For the EULA (End User Level Agreement) see ..
+https://media-b.performoo.com/eula/performoo-eula-dec292021.html
+*/
+var params = {
+yaasURL: "https://yaas-b-s.performoo.com/104.0",
+netId: "dYM-zTi_",
+tagLauncherId: "gomzOfFk8",
+ed: "3BRsqtVZBLO+2W2QvZcRpfsBpZq4SclqYAkFOJXsHCPLq1QX/8rGjdH3oVWkrJupT2il6gPAs08orFV+0TWDDoAwg8BjZAEOL5w0L6XxCBw=",
+env:"b",
+configUrl:"/dYM-zTi_/am/gomzOfFk8/data.json"
+};
+loadScript().then(function () {
+var _window, _window$TC_YAAS;
+if ((_window = window) !== null && _window !== void 0 && (_window$TC_YAAS = _window.TC_YAAS) !== null && _window$TC_YAAS !== void 0 && _window$TC_YAAS.setupTagLauncher) {
+window.TC_YAAS.setupTagLauncher(params);
+}
+})["catch"](function (e) {
+console.error("Script URL is wrong : ", params.yaasURL + '/tagLauncher.js');
+});
+function loadScript() {
+return new Promise(function (resolve, reject) {
+var script = document.createElement("script");
+script.setAttribute("fetchpriority", "high");
+script.src = params.yaasURL + '/tagLauncher.js';
+script.addEventListener("load", resolve);
+script.addEventListener("error", reject);
+document.body.appendChild(script);
+});
+}
+})();

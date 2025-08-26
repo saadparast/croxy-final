@@ -1,0 +1,40 @@
+2025-08-25 05:13:11,210 INFO RPC interface 'supervisor' initialized
+2025-08-25 05:13:11,210 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2025-08-25 05:13:11,213 INFO daemonizing the supervisord process
+2025-08-25 05:13:11,213 INFO set current directory: '/home/user/webapp'
+2025-08-25 05:13:11,214 INFO supervisord started with pid 2700
+2025-08-25 05:13:12,218 INFO spawned: 'webapp' with pid 2702
+2025-08-25 05:13:12,330 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:13:13,334 INFO spawned: 'webapp' with pid 2704
+2025-08-25 05:13:13,475 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:13:15,480 INFO spawned: 'webapp' with pid 2707
+2025-08-25 05:13:15,582 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:13:18,588 INFO spawned: 'webapp' with pid 2711
+2025-08-25 05:13:18,702 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:13:19,305 INFO gave up: webapp entered FATAL state, too many start retries too quickly
+2025-08-25 05:13:49,540 INFO spawned: 'webapp' with pid 2755
+2025-08-25 05:13:50,636 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-25 05:18:22,699 INFO waiting for webapp to stop
+2025-08-25 05:18:22,701 WARN stopped: webapp (terminated by SIGTERM)
+2025-08-25 05:18:22,704 INFO spawned: 'webapp' with pid 3049
+2025-08-25 05:18:23,797 INFO success: webapp entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-08-25 05:19:24,207 INFO waiting for webapp to stop
+2025-08-25 05:19:24,209 WARN stopped: webapp (terminated by SIGTERM)
+2025-08-25 05:19:30,901 INFO spawned: 'webapp' with pid 3138
+2025-08-25 05:19:31,005 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:19:32,009 INFO spawned: 'webapp' with pid 3140
+2025-08-25 05:19:32,112 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:19:34,118 INFO spawned: 'webapp' with pid 3143
+2025-08-25 05:19:34,217 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:19:37,223 INFO spawned: 'webapp' with pid 3147
+2025-08-25 05:19:37,330 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:19:38,331 INFO gave up: webapp entered FATAL state, too many start retries too quickly
+2025-08-25 05:19:53,938 INFO spawned: 'webapp' with pid 3179
+2025-08-25 05:19:54,039 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:19:55,042 INFO spawned: 'webapp' with pid 3181
+2025-08-25 05:19:55,150 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:19:57,156 INFO spawned: 'webapp' with pid 3184
+2025-08-25 05:19:57,302 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:20:00,308 INFO spawned: 'webapp' with pid 3188
+2025-08-25 05:20:00,414 WARN exited: webapp (exit status 1; not expected)
+2025-08-25 05:20:01,416 INFO gave up: webapp entered FATAL state, too many start retries too quickly

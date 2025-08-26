@@ -1,0 +1,546 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Premium Turmeric Powder",
+      "description": "Golden-yellow turmeric, freshly ground, directly sourced from Indian farms. High curcumin content (3-5%), perfect for culinary and medicinal uses.",
+      "price": "On Request",
+      "image": "/images/Premium Turmeric Powder.webp",
+      "category": "Spices",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Tamil Nadu, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI, Organic"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Black Pepper (Whole)",
+      "description": "Premium Malabar black pepper with bold flavor and aroma. Hand-picked and sun-dried for maximum quality.",
+      "price": "On Request",
+      "image": "/images/Black Pepper (Whole).jpg",
+      "category": "Spices",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Kerala, India",
+        "minOrder": "200 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Green Cardamom",
+      "description": "Aromatic green cardamom pods from the Western Ghats. Premium grade with intense flavor.",
+      "price": "On Request",
+      "image": "/images/Green Cardamom.jpeg",
+      "category": "Spices",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Kerala, India",
+        "minOrder": "100 kg",
+        "packaging": "10kg/25kg boxes",
+        "certification": "ISO, FSSAI, Organic"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Cumin Seeds",
+      "description": "High-quality cumin seeds with strong aroma and flavor. Machine cleaned and sortex processed.",
+      "price": "On Request",
+      "image": "/images/Cumin Seeds.webp",
+      "category": "Spices",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Gujarat, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Red Chili Powder",
+      "description": "Vibrant red chili powder with optimal heat and color. Made from premium Guntur chilies.",
+      "price": "On Request",
+      "image": "/images/Red Chili Powder.jpeg",
+      "category": "Spices",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Andhra Pradesh, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Coriander Seeds",
+      "description": "Fresh coriander seeds with sweet, citrusy flavor. Machine cleaned and sorted.",
+      "price": "On Request",
+      "image": "/images/Coriander Seeds.webp",
+      "category": "Spices",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Rajasthan, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Basmati Rice (1121)",
+      "description": "Premium long-grain Basmati rice with exceptional aroma and taste. Average grain length 8.35mm.",
+      "price": "On Request",
+      "image": "/images/Basmati Rice (1121).webp",
+      "category": "Agriculture",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Punjab/Haryana, India",
+        "minOrder": "1000 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI, Non-GMO"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Non-Basmati Rice",
+      "description": "High-quality parboiled rice, ideal for everyday consumption. Available in various grades.",
+      "price": "On Request",
+      "image": "/images/Non-Basmati Rice.jpg",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Andhra Pradesh, India",
+        "minOrder": "1000 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Organic Wheat",
+      "description": "Premium organic wheat grains, perfect for flour milling. High protein content.",
+      "price": "On Request",
+      "image": "/images/Organic Whea.webp",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": true,
+      "specifications": {
+        "origin": "Madhya Pradesh, India",
+        "minOrder": "1000 kg",
+        "packaging": "50kg bags",
+        "certification": "Organic, ISO, FSSAI"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Pearl Millet (Bajra)",
+      "description": "Nutritious pearl millet, gluten-free and rich in minerals. Ideal for health-conscious markets.",
+      "price": "On Request",
+      "image": "/images/Pearl Millet (Bajra).jpg",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Rajasthan, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI, Organic"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Red Lentils (Masoor Dal)",
+      "description": "Premium split red lentils, quick-cooking and nutritious. Machine cleaned and polished.",
+      "price": "On Request",
+      "image": "/images/Red Lentils (Masoor Dal).jpg",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Madhya Pradesh, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Chickpeas (Kabuli Chana)",
+      "description": "Large, white chickpeas with uniform size and color. High protein content.",
+      "price": "On Request",
+      "image": "/images/Chickpeas (Kabuli Chana).jpeg",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Madhya Pradesh, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Fresh Alphonso Mangoes",
+      "description": "The king of mangoes - Alphonso with rich flavor and aroma. Available April-June.",
+      "price": "On Request",
+      "image": "/images/Fresh Alphonso Mangoes.jpg",
+      "category": "Premium Products",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Maharashtra, India",
+        "minOrder": "500 kg",
+        "packaging": "5kg/10kg boxes",
+        "certification": "APEDA, GlobalGAP"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Saffron (Kashmir)",
+      "description": "World's most expensive spice, Grade A Kashmir saffron with intense aroma and color.",
+      "price": "On Request",
+      "image": "/images/Saffron (Kashmir).webp",
+      "category": "Premium Products",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Kashmir, India",
+        "minOrder": "1 kg",
+        "packaging": "1g/2g/5g/10g packs",
+        "certification": "ISO, GI Tagged"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Vanilla Beans",
+      "description": "Premium vanilla beans with high vanillin content. Hand-picked and cured to perfection.",
+      "price": "On Request",
+      "image": "/images/Vanilla Beans.jpg",
+      "category": "Premium Products",
+      "featured": false,
+      "premium": true,
+      "specifications": {
+        "origin": "Kerala, India",
+        "minOrder": "5 kg",
+        "packaging": "Vacuum sealed packs",
+        "certification": "ISO, FSSAI, Organic"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Darjeeling Tea",
+      "description": "World-famous Darjeeling tea with muscatel flavor. First flush and second flush available.",
+      "price": "On Request",
+      "image": "/images/Darjeeling Tea.webp",
+      "category": "Premium Products",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Darjeeling, West Bengal",
+        "minOrder": "100 kg",
+        "packaging": "25kg chests",
+        "certification": "GI Tagged, Organic"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Assam Tea (CTC)",
+      "description": "Strong, malty Assam tea perfect for milk tea. Premium CTC grade.",
+      "price": "On Request",
+      "image": "/images/Assam Tea (CTC).jpg",
+      "category": "Premium Products",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Assam, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 18,
+      "name": "Cashew Nuts (W320)",
+      "description": "Premium grade cashew nuts, whole and white. Carefully processed and graded.",
+      "price": "On Request",
+      "image": "/images/Cashew Nuts (W320).jpg",
+      "category": "Premium Products",
+      "featured": true,
+      "premium": true,
+      "specifications": {
+        "origin": "Kerala, India",
+        "minOrder": "100 kg",
+        "packaging": "10kg/25kg tins",
+        "certification": "ISO, FSSAI, HACCP"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Raw Cotton",
+      "description": "High-quality raw cotton with good staple length and strength. Machine picked and ginned.",
+      "price": "On Request",
+      "image": "/images/Raw Cotton.jpg",
+      "category": "Agriculture",
+      "featured": true,
+      "premium": false,
+      "specifications": {
+        "origin": "Gujarat/Maharashtra, India",
+        "minOrder": "10 tons",
+        "packaging": "170kg bales",
+        "certification": "Better Cotton Initiative"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Sugar (Icumsa 45)",
+      "description": "Refined white sugar with high purity. Suitable for food processing and direct consumption.",
+      "price": "On Request",
+      "image": "/images/Sugar (Icumsa 45).jpg",
+      "category": "Agriculture",
+      "featured": true,
+      "premium": false,
+      "specifications": {
+        "origin": "Maharashtra/Uttar Pradesh, India",
+        "minOrder": "1000 tons",
+        "packaging": "50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Frozen Buffalo Meat",
+      "description": "Halal certified frozen buffalo meat, boneless and bone-in cuts available.",
+      "price": "On Request",
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?q=80&w=1000&auto=format&fit=crop",
+      "category": "Agriculture",
+      "featured": true,
+      "premium": false,
+      "specifications": {
+        "origin": "Uttar Pradesh, India",
+        "minOrder": "20 tons",
+        "packaging": "20kg cartons",
+        "certification": "Halal, FSSAI, EIA"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Sesame Seeds (White/Black)",
+      "description": "Premium quality white sesame seeds, hulled and natural. High oil content.",
+      "price": "On Request",
+      "image": "/images/Sesame Seeds (White,Black).webp",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Gujarat/Rajasthan, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Groundnuts (Peanuts)",
+      "description": "High-quality groundnuts, bold and java varieties. Raw and blanched available.",
+      "price": "On Request",
+      "image": "/images/Groundnuts (Peanuts).webp",
+      "category": "Agriculture",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Gujarat/Andhra Pradesh, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI, Aflatoxin tested"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Mustard Seeds",
+      "description": "Premium quality mustard seeds, black and yellow varieties. High oil content.",
+      "price": "On Request",
+      "image": "/images/Mustard Seeds.webp",
+      "category": "Spices",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Rajasthan/Haryana, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Fenugreek Seeds",
+      "description": "Aromatic fenugreek seeds with bitter-sweet flavor. Machine cleaned and sorted.",
+      "price": "On Request",
+      "image": "/images/Fenugreek Seeds.jpg",
+      "category": "Spices",
+      "featured": false,
+      "premium": false,
+      "specifications": {
+        "origin": "Rajasthan, India",
+        "minOrder": "500 kg",
+        "packaging": "25kg/50kg bags",
+        "certification": "ISO, FSSAI"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Spices",
+      "icon": "🌶️",
+      "description": "Premium Indian spices and herbs sourced directly from farms"
+    },
+    {
+      "id": 2,
+      "name": "Agriculture",
+      "icon": "🌾",
+      "description": "High-quality grains, rice varieties, pulses, and agricultural commodities"
+    },
+    {
+      "id": 3,
+      "name": "Premium Products",
+      "icon": "🏆",
+      "description": "Exclusive high-value products with exceptional quality and heritage"
+    }
+  ],
+  "mostExported": [
+    {
+      "id": 101,
+      "name": "Basmati Rice",
+      "description": "India's most famous rice variety, known for its aroma and length. Premium 1121 and traditional varieties.",
+      "image": "https://images.unsplash.com/photo-1586201375761-83865001e8c7?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$4.8 billion",
+      "majorMarkets": "Middle East, USA, UK, EU",
+      "category": "Agriculture",
+      "specifications": {
+        "varieties": "1121, Pusa, Traditional",
+        "grainLength": "6.61-8.35mm",
+        "packaging": "25kg/50kg bags",
+        "certification": "APEDA, Non-GMO"
+      }
+    },
+    {
+      "id": 102,
+      "name": "Spices & Seasonings",
+      "description": "India is the world's largest producer, consumer, and exporter of spices. Over 50 varieties exported globally.",
+      "image": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$3.6 billion",
+      "majorMarkets": "USA, China, Vietnam, UAE",
+      "category": "Spices",
+      "specifications": {
+        "varieties": "Turmeric, Cumin, Coriander, Pepper",
+        "forms": "Whole, Ground, Oleoresins",
+        "packaging": "25kg bags, Consumer packs",
+        "certification": "Spices Board, Organic"
+      }
+    },
+    {
+      "id": 103,
+      "name": "Tea",
+      "description": "Second largest producer of tea globally, famous for Darjeeling, Assam, and Nilgiri varieties.",
+      "image": "https://images.unsplash.com/photo-1564890369478-c89ca6d9cde9?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$785 million",
+      "majorMarkets": "Russia, Iran, USA, UK",
+      "category": "Premium Products",
+      "specifications": {
+        "varieties": "CTC, Orthodox, Green Tea",
+        "grades": "FTGFOP, SFTGFOP, Pekoe",
+        "packaging": "Tea chests, Bulk bags",
+        "certification": "Tea Board, Organic, Fair Trade"
+      }
+    },
+    {
+      "id": 104,
+      "name": "Cotton",
+      "description": "India is the world's largest producer of cotton. High-quality medium and long staple varieties.",
+      "image": "https://images.unsplash.com/photo-1594641486340-a8595be8d0b5?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$6.3 billion",
+      "majorMarkets": "Bangladesh, China, Vietnam",
+      "category": "Agriculture",
+      "specifications": {
+        "stapleLength": "28-34mm",
+        "micronaire": "3.5-4.9",
+        "packaging": "170kg bales",
+        "certification": "Better Cotton Initiative"
+      }
+    },
+    {
+      "id": 105,
+      "name": "Sugar",
+      "description": "Second largest producer of sugar in the world. High-quality refined and raw sugar.",
+      "image": "https://images.unsplash.com/photo-1610013132538-86484b22459c?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$1.2 billion",
+      "majorMarkets": "Bangladesh, UAE, Somalia",
+      "category": "Agriculture",
+      "specifications": {
+        "types": "Icumsa 45, Raw Sugar",
+        "purity": "99.8% min",
+        "packaging": "50kg bags, Bulk",
+        "certification": "ISO, FSSAI"
+      }
+    },
+    {
+      "id": 106,
+      "name": "Buffalo Meat",
+      "description": "India is the largest exporter of buffalo meat in the world. Halal certified and processed.",
+      "image": "https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$3.2 billion",
+      "majorMarkets": "Vietnam, Malaysia, Egypt",
+      "category": "Agriculture",
+      "specifications": {
+        "cuts": "Boneless, Bone-in, Offals",
+        "temperature": "-18°C frozen",
+        "packaging": "20kg cartons",
+        "certification": "Halal, FSSAI, EIA"
+      }
+    },
+    {
+      "id": 107,
+      "name": "Cashew Nuts",
+      "description": "Premium quality cashew nuts from Kerala and Karnataka. Various grades available.",
+      "image": "https://images.unsplash.com/photo-1509358271058-acd22cc93898?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$800 million",
+      "majorMarkets": "USA, UAE, Netherlands, Japan",
+      "category": "Premium Products",
+      "specifications": {
+        "grades": "W180, W240, W320, W450",
+        "moisture": "5% max",
+        "packaging": "Tin containers, Vacuum packs",
+        "certification": "APEDA, HACCP"
+      }
+    },
+    {
+      "id": 108,
+      "name": "Sesame Seeds",
+      "description": "High oil content sesame seeds, natural and hulled varieties. Premium quality from Gujarat.",
+      "image": "https://images.unsplash.com/photo-1609501676725-7186f0b5c4f1?q=80&w=1000&auto=format&fit=crop",
+      "exportValue": "$600 million",
+      "majorMarkets": "China, Japan, Turkey, USA",
+      "category": "Agriculture",
+      "specifications": {
+        "oilContent": "48-52%",
+        "purity": "99% min",
+        "packaging": "25kg/50kg bags",
+        "certification": "APEDA, Organic"
+      }
+    }
+  ]
+}

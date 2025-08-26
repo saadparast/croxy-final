@@ -1,0 +1,43 @@
+
+var ftGUID_9773603="638783D654D687";
+var ftConfID_9773603="0";
+var ftParams_9773603="ftOBA=1&ft_domain=www.onlymyhealth.com&ft_ifb=1&ft_agentEnv=0&ft_referrer=https%3A%2F%2Fwww.onlymyhealth.com%2Fdifference-between-white-and-black-sesame-seeds-1640776820&gdpr=0&ftClick=https://exch.quantserve.com/r?&a=p-1RYxePXT9bCS2&labels=_qc.clk,_click.adserver.rtb,_click.rand.1457533146&rtbip=103.229.8.54&rtbdata2=EAM6HGh0dHBzOi8vd3d3Lm9ubHlteWhlYWx0aC5jb21aKGdQRS1xb0tyT195YjhEdjcxNjBtLTQ3d012MmItMmlnanFvRENpTVWAAdrhgLcFugEkRDM4MTJFREQtMUM4Qi00NkQ3LTg5OTktMjNCNEI2OTg4MkFGwAHlnRDIAfbxwcGNM9oBJTg0REYxOThCLTlCODgtNEE2RS1CQ0Y5LTVCRUU2QURDRjE0REKwAgjIAgDQAs7hhvv4n_fMqQHoAnjyAg8IwIQ9ELyS9-KByuiG9QHyAg4Im6YeEPz3uvy9oM3iZPICDAh4EN7Esqf0n7bXGfgCAIoDBjE1Nzg0NZgDAKgDALIDBJg6LgC6AxIJB0WdwjJFuoMR9lj6pUb1oYbCAxIJKUoooWUc_PIRhhRQ34GUXJnIA6GAgIYB2APa4YC3BeIDD3AtMVJZeGVQWFQ5YkNTMuoDBQjYBRBa8gMGNDAwMTA0-AMAgASYNIoEAjc3kgQMUE0tTkpUTi05MDc4mgQSCfZE-JRjMlMGEZtXOqofBMasogQSCQdFncIyRbqDEfZY-qVG9aGGqgQSCQdFncIyRbqDEfZY-qVG9aGGuATQBdAELvIEAklOgAUBigUAkAUBuAUAwAXa4YC3BcgFm9mpBNIFBggEEAEYB-gFBZoGFAoSCfZE-JRjMlMGEZtXOqofBMasoAYAqAbQ6bKIArUGCSH8OLoGZgoCSU4SAk1IGKLdFSIGbXVtYmFpKgY0MDAxMDQ6I3JlbGlhbmNlJTIwamlvJTIwaW5mb2NvbW0lMjBsaW1pdGVkWiNyZWxpYW5jZSUyMGppbyUyMGluZm9jb21tJTIwbGltaXRlZMkGhzAQ9hBLCA3QBjjYBjjiBj9fZnAuZXZlbnQuQ0MgUGFpZCBDb252ZXJzaW9uLF9mcC5ldmVudC5DQyBUcmlhbCBDb252ZXJzaW9uLF9vcl_qBhFodHRwczovL2Fkb2JlLmNvbfEGAAgQ9hBLCA34BgGABwCKBxIJKUoooWUc_PIRhhRQ34GUXJk&redirecturl3=&ft_custom=7hDaoecdpqX7Hdzf7gmqpuBhs6WVYqfK42bbouBl2qSQFaqjlE26yBg=&ft_mcid=9071771&ft_mliid=9194533&site_creativeid=10784050&site_lineitem=9194533&site_url=onlymyhealth.com&cachebuster=491884.06238424644";
+var ftKeyword_9773603="";
+var ftCustom_9773603="7hDaoecdpqX7Hdzf7gmqpuBhs6WVYqfK42bbouBl2qSQFaqjlE26yBg=";
+var ftSection_9773603="";
+var ftSegment_9773603="";
+var ftSegmentList_9773603=[];
+var ftRuleMatch_9773603="0";
+var ftTimestamp_9773603="1755973810";
+var ftGeoC2_9773603="in";
+var ftGeoState_9773603="mh";
+var ftGeoCity_9773603="mumbai";
+var ftISP_9773603="reliance jio infocomm limited";
+var ftSpeed_9773603="mobile";
+var ftConnType_9773603="mobile";
+var ftDMA_9773603="356002";
+var ftLong_9773603="72.85";
+var ftLat_9773603="19.23";
+var ftPostal_9773603="400091";
+var ftTimeZone_9773603="+530";
+var ftMobileCarrier_9773603="jio";
+var ftImp9773603 = {};
+ftImp9773603.privacy = "x";
+ftImp9773603.guidAge = "57";
+ftImp9773603.impID = "CC3E60E7-B5FB-06A9-76B4-E0E8F7A9B9F3";
+ftImp9773603.duid = "FT:638783D654D687";
+
+ftImp9773603.ft_tpplid = "";
+ftImp9773603.ft_c = {};
+ftImp9773603.gdpr = "0";
+ftImp9773603.gdpr_consent = "";
+ftImp9773603.gdpr_pd = "";
+ftImp9773603.oob_consent = "";
+ftImp9773603.gdprStoredConsent = "";
+ftImp9773603.us_privacy = "";
+ftImp9773603.gpc = "";
+
+ftImp9773603.jsAppend = "1";
+var ftCreativeId_9773603 = "5472806";
+(function(){var tag=document.getElementById("ft_servedby_9773603")||function(s){return s[s.length-1]}(document.getElementsByTagName("script")),js=document.createElement("script");js.src="https://ajs-assets.ftstatic.com/ftUtils.js";js.id="ftscript_m9773603";js.setAttribute("name","ftscript_m9773603");tag.parentNode.insertBefore(js,tag)})();window.fTChecker=window.fTChecker||function(id){if(!id)return false;id=""+id;if(window.hasOwnProperty("ftUtils")){window["ft"+id]=Object.assign({},window.ftUtils.common);window["ft"+id].getBannerConfig(id)}else(function(id){window.setTimeout(function(){window.fTChecker(id)},50)})(id)};window.fTChecker("9773603");
+

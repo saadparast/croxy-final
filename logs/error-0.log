@@ -1,0 +1,1710 @@
+2025-08-22T14:53:03: 2:53:03 PM [vite] (client) Pre-transform error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:53:03: 
+2025-08-22T14:53:03:   60 |     e.preventDefault();
+2025-08-22T14:53:03:   61 |     
+2025-08-22T14:53:03: > 62 |     try {
+2025-08-22T14:53:03:      |     ^
+2025-08-22T14:53:03:   63 |       // Send email and save to database
+2025-08-22T14:53:03:   64 |       if (formType === 'product-request') {
+2025-08-22T14:53:03:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:53:03:   Plugin: vite:react-babel
+2025-08-22T14:53:03:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:53:03:   60 |      e.preventDefault();
+2025-08-22T14:53:03:   61 |      
+2025-08-22T14:53:03:   62 |      try {
+2025-08-22T14:53:03:      |      ^
+2025-08-22T14:53:03:   63 |        // Send email and save to database
+2025-08-22T14:53:03:   64 |        if (formType === 'product-request') {
+2025-08-22T14:53:03: 2:53:03 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:53:03: 
+2025-08-22T14:53:03:   60 |     e.preventDefault();
+2025-08-22T14:53:03:   61 |     
+2025-08-22T14:53:03: > 62 |     try {
+2025-08-22T14:53:03:      |     ^
+2025-08-22T14:53:03:   63 |       // Send email and save to database
+2025-08-22T14:53:03:   64 |       if (formType === 'product-request') {
+2025-08-22T14:53:03:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:53:03:   Plugin: vite:react-babel
+2025-08-22T14:53:03:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:53:03:   60 |      e.preventDefault();
+2025-08-22T14:53:03:   61 |      
+2025-08-22T14:53:03:   62 |      try {
+2025-08-22T14:53:03:      |      ^
+2025-08-22T14:53:03:   63 |        // Send email and save to database
+2025-08-22T14:53:03:   64 |        if (formType === 'product-request') {
+2025-08-22T14:53:03:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:53:03:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:53:03:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:53:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:53:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:53:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:53:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:53:03:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:53:03:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:53:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:53:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:53:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:53:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:53:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:53:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:53:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:53:03:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:53:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:53:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:53:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:53:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:53:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:53:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:53:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:53:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:53:22: 2:53:22 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:53:22: 
+2025-08-22T14:53:22:   60 |     e.preventDefault();
+2025-08-22T14:53:22:   61 |     
+2025-08-22T14:53:22: > 62 |     try {
+2025-08-22T14:53:22:      |     ^
+2025-08-22T14:53:22:   63 |       // Send email and save to database
+2025-08-22T14:53:22:   64 |       if (formType === 'product-request') {
+2025-08-22T14:53:22:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:53:22:   Plugin: vite:react-babel
+2025-08-22T14:53:22:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:53:22:   60 |      e.preventDefault();
+2025-08-22T14:53:22:   61 |      
+2025-08-22T14:53:22:   62 |      try {
+2025-08-22T14:53:22:      |      ^
+2025-08-22T14:53:22:   63 |        // Send email and save to database
+2025-08-22T14:53:22:   64 |        if (formType === 'product-request') {
+2025-08-22T14:53:22:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:53:22:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:53:22:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:53:22:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:53:22:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:53:22:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:53:22:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:53:22:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:53:22:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:53:22:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:53:22:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:53:22:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:53:22:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:53:22:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:53:22:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:53:22:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:53:22:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:53:22:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:53:22:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:53:22:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:53:22:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:53:22:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:53:22:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:53:22:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:53:22:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:53:44: 2:53:44 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:53:44: 
+2025-08-22T14:53:44:   60 |     e.preventDefault();
+2025-08-22T14:53:44:   61 |     
+2025-08-22T14:53:44: > 62 |     try {
+2025-08-22T14:53:44:      |     ^
+2025-08-22T14:53:44:   63 |       // Send email and save to database
+2025-08-22T14:53:44:   64 |       if (formType === 'product-request') {
+2025-08-22T14:53:44:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:53:44:   Plugin: vite:react-babel
+2025-08-22T14:53:44:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:53:44:   60 |      e.preventDefault();
+2025-08-22T14:53:44:   61 |      
+2025-08-22T14:53:44:   62 |      try {
+2025-08-22T14:53:44:      |      ^
+2025-08-22T14:53:44:   63 |        // Send email and save to database
+2025-08-22T14:53:44:   64 |        if (formType === 'product-request') {
+2025-08-22T14:53:44:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:53:44:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:53:44:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:53:44:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:53:44:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:53:44:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:53:44:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:53:44:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:53:44:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:53:44:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:53:44:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:53:44:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:53:44:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:53:44:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:53:44:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:53:44:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:53:44:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:53:44:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:53:44:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:53:44:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:53:44:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:53:44:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:53:44:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:53:44:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:53:44:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:54:37: 2:54:37 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:54:37: 
+2025-08-22T14:54:37:   60 |     e.preventDefault();
+2025-08-22T14:54:37:   61 |     
+2025-08-22T14:54:37: > 62 |     try {
+2025-08-22T14:54:37:      |     ^
+2025-08-22T14:54:37:   63 |       // Send email and save to database
+2025-08-22T14:54:37:   64 |       if (formType === 'product-request') {
+2025-08-22T14:54:37:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:54:37:   Plugin: vite:react-babel
+2025-08-22T14:54:37:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:54:37:   60 |      e.preventDefault();
+2025-08-22T14:54:37:   61 |      
+2025-08-22T14:54:37:   62 |      try {
+2025-08-22T14:54:37:      |      ^
+2025-08-22T14:54:37:   63 |        // Send email and save to database
+2025-08-22T14:54:37:   64 |        if (formType === 'product-request') {
+2025-08-22T14:54:37:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:54:37:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:54:37:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:54:37:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:54:37:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:54:37:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:54:37:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:54:37:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:54:37:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:54:37:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:54:37:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:54:37:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:54:37:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:54:37:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:54:37:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:54:37:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:54:37:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:54:37:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:54:37:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:54:37:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:54:37:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:54:37:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:54:37:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:54:37:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:54:37:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:33: 2:55:33 PM [vite] (client) Pre-transform error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:55:33: 
+2025-08-22T14:55:33:   60 |     e.preventDefault();
+2025-08-22T14:55:33:   61 |     
+2025-08-22T14:55:33: > 62 |     try {
+2025-08-22T14:55:33:      |     ^
+2025-08-22T14:55:33:   63 |       // Send email and save to database
+2025-08-22T14:55:33:   64 |       if (formType === 'product-request') {
+2025-08-22T14:55:33:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:55:33:   Plugin: vite:react-babel
+2025-08-22T14:55:33:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:55:33:   60 |      e.preventDefault();
+2025-08-22T14:55:33:   61 |      
+2025-08-22T14:55:33:   62 |      try {
+2025-08-22T14:55:33:      |      ^
+2025-08-22T14:55:33:   63 |        // Send email and save to database
+2025-08-22T14:55:33:   64 |        if (formType === 'product-request') {
+2025-08-22T14:55:35: 2:55:35 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:55:35: 
+2025-08-22T14:55:35:   60 |     e.preventDefault();
+2025-08-22T14:55:35:   61 |     
+2025-08-22T14:55:35: > 62 |     try {
+2025-08-22T14:55:35:      |     ^
+2025-08-22T14:55:35:   63 |       // Send email and save to database
+2025-08-22T14:55:35:   64 |       if (formType === 'product-request') {
+2025-08-22T14:55:35:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:55:35:   Plugin: vite:react-babel
+2025-08-22T14:55:35:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:55:35:   60 |      e.preventDefault();
+2025-08-22T14:55:35:   61 |      
+2025-08-22T14:55:35:   62 |      try {
+2025-08-22T14:55:35:      |      ^
+2025-08-22T14:55:35:   63 |        // Send email and save to database
+2025-08-22T14:55:35:   64 |        if (formType === 'product-request') {
+2025-08-22T14:55:35:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:55:35:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:55:35:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:55:35:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:55:35:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:35:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:35:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:55:35:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:55:35:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:55:35:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:35:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:35:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:35:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:35:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:35:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:35:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:35:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:55:35:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:55:35:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:35:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:35:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:35:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:35:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:35:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:35:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:36: 2:55:36 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:55:36: 
+2025-08-22T14:55:36:   60 |     e.preventDefault();
+2025-08-22T14:55:36:   61 |     
+2025-08-22T14:55:36: > 62 |     try {
+2025-08-22T14:55:36:      |     ^
+2025-08-22T14:55:36:   63 |       // Send email and save to database
+2025-08-22T14:55:36:   64 |       if (formType === 'product-request') {
+2025-08-22T14:55:36:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:55:36:   Plugin: vite:react-babel
+2025-08-22T14:55:36:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:55:36:   60 |      e.preventDefault();
+2025-08-22T14:55:36:   61 |      
+2025-08-22T14:55:36:   62 |      try {
+2025-08-22T14:55:36:      |      ^
+2025-08-22T14:55:36:   63 |        // Send email and save to database
+2025-08-22T14:55:36:   64 |        if (formType === 'product-request') {
+2025-08-22T14:55:36:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:55:36:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:55:36:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:36:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:55:36:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:55:36:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:36:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:36:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:36:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:36:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:36:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:36: 2:55:36 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:55:36: 
+2025-08-22T14:55:36:   60 |     e.preventDefault();
+2025-08-22T14:55:36:   61 |     
+2025-08-22T14:55:36: > 62 |     try {
+2025-08-22T14:55:36:      |     ^
+2025-08-22T14:55:36:   63 |       // Send email and save to database
+2025-08-22T14:55:36:   64 |       if (formType === 'product-request') {
+2025-08-22T14:55:36:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:55:36:   Plugin: vite:react-babel
+2025-08-22T14:55:36:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:55:36:   60 |      e.preventDefault();
+2025-08-22T14:55:36:   61 |      
+2025-08-22T14:55:36:   62 |      try {
+2025-08-22T14:55:36:      |      ^
+2025-08-22T14:55:36:   63 |        // Send email and save to database
+2025-08-22T14:55:36:   64 |        if (formType === 'product-request') {
+2025-08-22T14:55:36:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:55:36:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:55:36:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:36:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:55:36:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:55:36:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:36:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:36:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:36:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:36:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:36:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:36:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:36:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:36:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:36:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:37: 2:55:37 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:55:37: 
+2025-08-22T14:55:37:   60 |     e.preventDefault();
+2025-08-22T14:55:37:   61 |     
+2025-08-22T14:55:37: > 62 |     try {
+2025-08-22T14:55:37:      |     ^
+2025-08-22T14:55:37:   63 |       // Send email and save to database
+2025-08-22T14:55:37:   64 |       if (formType === 'product-request') {
+2025-08-22T14:55:37:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:55:37:   Plugin: vite:react-babel
+2025-08-22T14:55:37:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:55:37:   60 |      e.preventDefault();
+2025-08-22T14:55:37:   61 |      
+2025-08-22T14:55:37:   62 |      try {
+2025-08-22T14:55:37:      |      ^
+2025-08-22T14:55:37:   63 |        // Send email and save to database
+2025-08-22T14:55:37:   64 |        if (formType === 'product-request') {
+2025-08-22T14:55:37:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:55:37:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:55:37:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:55:37:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:55:37:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:37:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:37:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:55:37:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:55:37:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:55:37:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:37:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:37:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:37:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:37:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:55:37:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:55:37:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:55:37:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:55:37:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:55:37:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:55:37:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:55:37:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:55:37:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:55:37:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:55:37:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:55:37:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:55:59: 2:55:59 PM [vite] (client) Pre-transform error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:55:59: 
+2025-08-22T14:55:59:   60 |     e.preventDefault();
+2025-08-22T14:55:59:   61 |     
+2025-08-22T14:55:59: > 62 |     try {
+2025-08-22T14:55:59:      |     ^
+2025-08-22T14:55:59:   63 |       // Send email and save to database
+2025-08-22T14:55:59:   64 |       if (formType === 'product-request') {
+2025-08-22T14:55:59:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:55:59:   Plugin: vite:react-babel
+2025-08-22T14:55:59:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:55:59:   60 |      e.preventDefault();
+2025-08-22T14:55:59:   61 |      
+2025-08-22T14:55:59:   62 |      try {
+2025-08-22T14:55:59:      |      ^
+2025-08-22T14:55:59:   63 |        // Send email and save to database
+2025-08-22T14:55:59:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:02: 2:56:02 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:02: 
+2025-08-22T14:56:02:   60 |     e.preventDefault();
+2025-08-22T14:56:02:   61 |     
+2025-08-22T14:56:02: > 62 |     try {
+2025-08-22T14:56:02:      |     ^
+2025-08-22T14:56:02:   63 |       // Send email and save to database
+2025-08-22T14:56:02:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:02:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:02:   Plugin: vite:react-babel
+2025-08-22T14:56:02:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:02:   60 |      e.preventDefault();
+2025-08-22T14:56:02:   61 |      
+2025-08-22T14:56:02:   62 |      try {
+2025-08-22T14:56:02:      |      ^
+2025-08-22T14:56:02:   63 |        // Send email and save to database
+2025-08-22T14:56:02:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:02:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:02:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:02:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:02:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:02:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:02:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:02:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:02:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:02:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:02:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:02:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:02: 2:56:02 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:02: 
+2025-08-22T14:56:02:   60 |     e.preventDefault();
+2025-08-22T14:56:02:   61 |     
+2025-08-22T14:56:02: > 62 |     try {
+2025-08-22T14:56:02:      |     ^
+2025-08-22T14:56:02:   63 |       // Send email and save to database
+2025-08-22T14:56:02:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:02:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:02:   Plugin: vite:react-babel
+2025-08-22T14:56:02:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:02:   60 |      e.preventDefault();
+2025-08-22T14:56:02:   61 |      
+2025-08-22T14:56:02:   62 |      try {
+2025-08-22T14:56:02:      |      ^
+2025-08-22T14:56:02:   63 |        // Send email and save to database
+2025-08-22T14:56:02:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:02:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:02:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:02:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:02:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:02:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:02:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:02:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:02:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:02:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:02:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:02:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:02:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:02:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:02:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:02:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:03: 2:56:03 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:03: 
+2025-08-22T14:56:03:   60 |     e.preventDefault();
+2025-08-22T14:56:03:   61 |     
+2025-08-22T14:56:03: > 62 |     try {
+2025-08-22T14:56:03:      |     ^
+2025-08-22T14:56:03:   63 |       // Send email and save to database
+2025-08-22T14:56:03:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:03:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:03:   Plugin: vite:react-babel
+2025-08-22T14:56:03:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:03:   60 |      e.preventDefault();
+2025-08-22T14:56:03:   61 |      
+2025-08-22T14:56:03:   62 |      try {
+2025-08-22T14:56:03:      |      ^
+2025-08-22T14:56:03:   63 |        // Send email and save to database
+2025-08-22T14:56:03:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:03:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:03:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:03:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:03: 2:56:03 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:03: 
+2025-08-22T14:56:03:   60 |     e.preventDefault();
+2025-08-22T14:56:03:   61 |     
+2025-08-22T14:56:03: > 62 |     try {
+2025-08-22T14:56:03:      |     ^
+2025-08-22T14:56:03:   63 |       // Send email and save to database
+2025-08-22T14:56:03:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:03:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:03:   Plugin: vite:react-babel
+2025-08-22T14:56:03:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:03:   60 |      e.preventDefault();
+2025-08-22T14:56:03:   61 |      
+2025-08-22T14:56:03:   62 |      try {
+2025-08-22T14:56:03:      |      ^
+2025-08-22T14:56:03:   63 |        // Send email and save to database
+2025-08-22T14:56:03:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:03:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:03:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:03:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:03: 2:56:03 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:03: 
+2025-08-22T14:56:03:   60 |     e.preventDefault();
+2025-08-22T14:56:03:   61 |     
+2025-08-22T14:56:03: > 62 |     try {
+2025-08-22T14:56:03:      |     ^
+2025-08-22T14:56:03:   63 |       // Send email and save to database
+2025-08-22T14:56:03:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:03:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:03:   Plugin: vite:react-babel
+2025-08-22T14:56:03:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:03:   60 |      e.preventDefault();
+2025-08-22T14:56:03:   61 |      
+2025-08-22T14:56:03:   62 |      try {
+2025-08-22T14:56:03:      |      ^
+2025-08-22T14:56:03:   63 |        // Send email and save to database
+2025-08-22T14:56:03:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:03:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:03:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:03:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:03:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:03:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:03:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:03:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:03:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:03:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:03:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:24: 2:56:24 PM [vite] (client) Pre-transform error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:24: 
+2025-08-22T14:56:24:   60 |     e.preventDefault();
+2025-08-22T14:56:24:   61 |     
+2025-08-22T14:56:24: > 62 |     try {
+2025-08-22T14:56:24:      |     ^
+2025-08-22T14:56:24:   63 |       // Send email and save to database
+2025-08-22T14:56:24:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:24:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:24:   Plugin: vite:react-babel
+2025-08-22T14:56:24:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:24:   60 |      e.preventDefault();
+2025-08-22T14:56:24:   61 |      
+2025-08-22T14:56:24:   62 |      try {
+2025-08-22T14:56:24:      |      ^
+2025-08-22T14:56:24:   63 |        // Send email and save to database
+2025-08-22T14:56:24:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:27: 2:56:27 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:27: 
+2025-08-22T14:56:27:   60 |     e.preventDefault();
+2025-08-22T14:56:27:   61 |     
+2025-08-22T14:56:27: > 62 |     try {
+2025-08-22T14:56:27:      |     ^
+2025-08-22T14:56:27:   63 |       // Send email and save to database
+2025-08-22T14:56:27:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:27:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:27:   Plugin: vite:react-babel
+2025-08-22T14:56:27:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:27:   60 |      e.preventDefault();
+2025-08-22T14:56:27:   61 |      
+2025-08-22T14:56:27:   62 |      try {
+2025-08-22T14:56:27:      |      ^
+2025-08-22T14:56:27:   63 |        // Send email and save to database
+2025-08-22T14:56:27:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:27:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:27:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:27:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:27:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:27:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:27:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:27:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:27:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:27:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:27:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:27:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:27: 2:56:27 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:27: 
+2025-08-22T14:56:27:   60 |     e.preventDefault();
+2025-08-22T14:56:27:   61 |     
+2025-08-22T14:56:27: > 62 |     try {
+2025-08-22T14:56:27:      |     ^
+2025-08-22T14:56:27:   63 |       // Send email and save to database
+2025-08-22T14:56:27:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:27:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:27:   Plugin: vite:react-babel
+2025-08-22T14:56:27:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:27:   60 |      e.preventDefault();
+2025-08-22T14:56:27:   61 |      
+2025-08-22T14:56:27:   62 |      try {
+2025-08-22T14:56:27:      |      ^
+2025-08-22T14:56:27:   63 |        // Send email and save to database
+2025-08-22T14:56:27:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:27:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:27:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:27:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:27:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:27:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:27:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:27:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:27:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:27:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:27:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:27:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:27:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:27:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:27:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:27:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:28: 2:56:28 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:28: 
+2025-08-22T14:56:28:   60 |     e.preventDefault();
+2025-08-22T14:56:28:   61 |     
+2025-08-22T14:56:28: > 62 |     try {
+2025-08-22T14:56:28:      |     ^
+2025-08-22T14:56:28:   63 |       // Send email and save to database
+2025-08-22T14:56:28:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:28:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:28:   Plugin: vite:react-babel
+2025-08-22T14:56:28:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:28:   60 |      e.preventDefault();
+2025-08-22T14:56:28:   61 |      
+2025-08-22T14:56:28:   62 |      try {
+2025-08-22T14:56:28:      |      ^
+2025-08-22T14:56:28:   63 |        // Send email and save to database
+2025-08-22T14:56:28:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:28:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:28:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:28:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:28:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:28:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:28:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:28:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:28:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:28:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:28: 2:56:28 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:28: 
+2025-08-22T14:56:28:   60 |     e.preventDefault();
+2025-08-22T14:56:28:   61 |     
+2025-08-22T14:56:28: > 62 |     try {
+2025-08-22T14:56:28:      |     ^
+2025-08-22T14:56:28:   63 |       // Send email and save to database
+2025-08-22T14:56:28:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:28:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:28:   Plugin: vite:react-babel
+2025-08-22T14:56:28:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:28:   60 |      e.preventDefault();
+2025-08-22T14:56:28:   61 |      
+2025-08-22T14:56:28:   62 |      try {
+2025-08-22T14:56:28:      |      ^
+2025-08-22T14:56:28:   63 |        // Send email and save to database
+2025-08-22T14:56:28:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:28:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:28:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:28:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:28:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:28:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:28:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:28:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:28:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:28:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:28: 2:56:28 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:28: 
+2025-08-22T14:56:28:   60 |     e.preventDefault();
+2025-08-22T14:56:28:   61 |     
+2025-08-22T14:56:28: > 62 |     try {
+2025-08-22T14:56:28:      |     ^
+2025-08-22T14:56:28:   63 |       // Send email and save to database
+2025-08-22T14:56:28:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:28:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:28:   Plugin: vite:react-babel
+2025-08-22T14:56:28:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:28:   60 |      e.preventDefault();
+2025-08-22T14:56:28:   61 |      
+2025-08-22T14:56:28:   62 |      try {
+2025-08-22T14:56:28:      |      ^
+2025-08-22T14:56:28:   63 |        // Send email and save to database
+2025-08-22T14:56:28:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:28:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:28:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:28:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:28:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:28:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:28:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:28:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:28:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:28:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:28:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:28:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:28:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:28:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:31: 2:56:31 PM [vite] (client) Pre-transform error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:31: 
+2025-08-22T14:56:31:   60 |     e.preventDefault();
+2025-08-22T14:56:31:   61 |     
+2025-08-22T14:56:31: > 62 |     try {
+2025-08-22T14:56:31:      |     ^
+2025-08-22T14:56:31:   63 |       // Send email and save to database
+2025-08-22T14:56:31:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:31:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:31:   Plugin: vite:react-babel
+2025-08-22T14:56:31:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:31:   60 |      e.preventDefault();
+2025-08-22T14:56:31:   61 |      
+2025-08-22T14:56:31:   62 |      try {
+2025-08-22T14:56:31:      |      ^
+2025-08-22T14:56:31:   63 |        // Send email and save to database
+2025-08-22T14:56:31:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:33: 2:56:33 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:33: 
+2025-08-22T14:56:33:   60 |     e.preventDefault();
+2025-08-22T14:56:33:   61 |     
+2025-08-22T14:56:33: > 62 |     try {
+2025-08-22T14:56:33:      |     ^
+2025-08-22T14:56:33:   63 |       // Send email and save to database
+2025-08-22T14:56:33:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:33:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:33:   Plugin: vite:react-babel
+2025-08-22T14:56:33:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:33:   60 |      e.preventDefault();
+2025-08-22T14:56:33:   61 |      
+2025-08-22T14:56:33:   62 |      try {
+2025-08-22T14:56:33:      |      ^
+2025-08-22T14:56:33:   63 |        // Send email and save to database
+2025-08-22T14:56:33:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:33:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:33:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:33:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:33:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:33:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:33:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:33:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:33:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:33:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:33:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:33:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:33:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:33:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:33:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:33:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:33:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:33:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:33:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:33:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:33:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:33:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:33:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:33:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:33:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:33:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:34: 2:56:34 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:34: 
+2025-08-22T14:56:34:   60 |     e.preventDefault();
+2025-08-22T14:56:34:   61 |     
+2025-08-22T14:56:34: > 62 |     try {
+2025-08-22T14:56:34:      |     ^
+2025-08-22T14:56:34:   63 |       // Send email and save to database
+2025-08-22T14:56:34:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:34:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:34:   Plugin: vite:react-babel
+2025-08-22T14:56:34:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:34:   60 |      e.preventDefault();
+2025-08-22T14:56:34:   61 |      
+2025-08-22T14:56:34:   62 |      try {
+2025-08-22T14:56:34:      |      ^
+2025-08-22T14:56:34:   63 |        // Send email and save to database
+2025-08-22T14:56:34:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:34:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:34:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:34:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:34:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:34:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:34:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:34:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:34:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:34:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:34: 2:56:34 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:34: 
+2025-08-22T14:56:34:   60 |     e.preventDefault();
+2025-08-22T14:56:34:   61 |     
+2025-08-22T14:56:34: > 62 |     try {
+2025-08-22T14:56:34:      |     ^
+2025-08-22T14:56:34:   63 |       // Send email and save to database
+2025-08-22T14:56:34:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:34:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:34:   Plugin: vite:react-babel
+2025-08-22T14:56:34:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:34:   60 |      e.preventDefault();
+2025-08-22T14:56:34:   61 |      
+2025-08-22T14:56:34:   62 |      try {
+2025-08-22T14:56:34:      |      ^
+2025-08-22T14:56:34:   63 |        // Send email and save to database
+2025-08-22T14:56:34:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:34:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:34:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:34:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:34:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:34:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:34:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:34:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:34:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:34:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:34: 2:56:34 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:34: 
+2025-08-22T14:56:34:   60 |     e.preventDefault();
+2025-08-22T14:56:34:   61 |     
+2025-08-22T14:56:34: > 62 |     try {
+2025-08-22T14:56:34:      |     ^
+2025-08-22T14:56:34:   63 |       // Send email and save to database
+2025-08-22T14:56:34:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:34:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:34:   Plugin: vite:react-babel
+2025-08-22T14:56:34:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:34:   60 |      e.preventDefault();
+2025-08-22T14:56:34:   61 |      
+2025-08-22T14:56:34:   62 |      try {
+2025-08-22T14:56:34:      |      ^
+2025-08-22T14:56:34:   63 |        // Send email and save to database
+2025-08-22T14:56:34:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:34:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:34:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:34:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:34:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:34:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:34:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:34:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:34:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:34:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:34:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:34:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:34:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:34:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:51: 2:56:51 PM [vite] (client) Pre-transform error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:51: 
+2025-08-22T14:56:51:   60 |     e.preventDefault();
+2025-08-22T14:56:51:   61 |     
+2025-08-22T14:56:51: > 62 |     try {
+2025-08-22T14:56:51:      |     ^
+2025-08-22T14:56:51:   63 |       // Send email and save to database
+2025-08-22T14:56:51:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:51:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:51:   Plugin: vite:react-babel
+2025-08-22T14:56:51:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:51:   60 |      e.preventDefault();
+2025-08-22T14:56:51:   61 |      
+2025-08-22T14:56:51:   62 |      try {
+2025-08-22T14:56:51:      |      ^
+2025-08-22T14:56:51:   63 |        // Send email and save to database
+2025-08-22T14:56:51:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:55: 2:56:55 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:56:55: 
+2025-08-22T14:56:55:   60 |     e.preventDefault();
+2025-08-22T14:56:55:   61 |     
+2025-08-22T14:56:55: > 62 |     try {
+2025-08-22T14:56:55:      |     ^
+2025-08-22T14:56:55:   63 |       // Send email and save to database
+2025-08-22T14:56:55:   64 |       if (formType === 'product-request') {
+2025-08-22T14:56:55:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:56:55:   Plugin: vite:react-babel
+2025-08-22T14:56:55:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:56:55:   60 |      e.preventDefault();
+2025-08-22T14:56:55:   61 |      
+2025-08-22T14:56:55:   62 |      try {
+2025-08-22T14:56:55:      |      ^
+2025-08-22T14:56:55:   63 |        // Send email and save to database
+2025-08-22T14:56:55:   64 |        if (formType === 'product-request') {
+2025-08-22T14:56:55:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:56:55:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:56:55:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:56:55:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:56:55:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:55:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:55:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:56:55:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:56:55:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:56:55:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:55:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:55:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:55:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:55:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:56:55:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:56:55:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:56:55:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:56:55:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:56:55:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:56:55:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:56:55:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:56:55:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:56:55:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:56:55:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:56:55:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:57:20: 2:57:20 PM [vite] Internal server error: /home/user/webapp/src/pages/Contact.jsx: Missing catch or finally clause. (62:4)
+2025-08-22T14:57:20: 
+2025-08-22T14:57:20:   60 |     e.preventDefault();
+2025-08-22T14:57:20:   61 |     
+2025-08-22T14:57:20: > 62 |     try {
+2025-08-22T14:57:20:      |     ^
+2025-08-22T14:57:20:   63 |       // Send email and save to database
+2025-08-22T14:57:20:   64 |       if (formType === 'product-request') {
+2025-08-22T14:57:20:   65 |         await emailService.sendProductInquiry({
+2025-08-22T14:57:20:   Plugin: vite:react-babel
+2025-08-22T14:57:20:   File: /home/user/webapp/src/pages/Contact.jsx:62:4
+2025-08-22T14:57:20:   60 |      e.preventDefault();
+2025-08-22T14:57:20:   61 |      
+2025-08-22T14:57:20:   62 |      try {
+2025-08-22T14:57:20:      |      ^
+2025-08-22T14:57:20:   63 |        // Send email and save to database
+2025-08-22T14:57:20:   64 |        if (formType === 'product-request') {
+2025-08-22T14:57:20:       at constructor (/home/user/webapp/node_modules/@babel/parser/lib/index.js:367:19)
+2025-08-22T14:57:20:       at JSXParserMixin.raise (/home/user/webapp/node_modules/@babel/parser/lib/index.js:6630:19)
+2025-08-22T14:57:20:       at JSXParserMixin.parseTryStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13229:12)
+2025-08-22T14:57:20:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12809:21)
+2025-08-22T14:57:20:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:57:20:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:57:20:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseAsyncArrowFromCallExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11264:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseCoverCallAndAsyncArrowHead (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11194:27)
+2025-08-22T14:57:20:       at JSXParserMixin.parseSubscript (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11120:19)
+2025-08-22T14:57:20:       at JSXParserMixin.parseSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11094:19)
+2025-08-22T14:57:20:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11085:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:57:20:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:57:20:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:57:20:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:57:20:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseStatementContent (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12856:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseStatementLike (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12772:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseStatementListItem (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12752:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseBlockOrModuleBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13321:61)
+2025-08-22T14:57:20:       at JSXParserMixin.parseBlockBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13314:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseBlock (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13302:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseFunctionBody (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12106:24)
+2025-08-22T14:57:20:       at JSXParserMixin.parseArrowExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12081:10)
+2025-08-22T14:57:20:       at JSXParserMixin.parseParenAndDistinguishExpression (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11691:12)
+2025-08-22T14:57:20:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11331:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseExprAtom (/home/user/webapp/node_modules/@babel/parser/lib/index.js:4797:20)
+2025-08-22T14:57:20:       at JSXParserMixin.parseExprSubscripts (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11081:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseUpdate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11066:21)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeUnary (/home/user/webapp/node_modules/@babel/parser/lib/index.js:11046:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeUnaryOrPrivate (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10899:61)
+2025-08-22T14:57:20:       at JSXParserMixin.parseExprOps (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10904:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeConditional (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10881:23)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeAssign (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10831:21)
+2025-08-22T14:57:20:       at /home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:39
+2025-08-22T14:57:20:       at JSXParserMixin.allowInAnd (/home/user/webapp/node_modules/@babel/parser/lib/index.js:12427:16)
+2025-08-22T14:57:20:       at JSXParserMixin.parseMaybeAssignAllowIn (/home/user/webapp/node_modules/@babel/parser/lib/index.js:10800:17)
+2025-08-22T14:57:20:       at JSXParserMixin.parseVar (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13389:91)
+2025-08-22T14:57:20:       at JSXParserMixin.parseVarStatement (/home/user/webapp/node_modules/@babel/parser/lib/index.js:13235:10)

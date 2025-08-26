@@ -1,0 +1,9 @@
+2025-08-24T15:23:21: Backend API server running on http://0.0.0.0:3001
+2025-08-24T15:23:21: Health check: http://0.0.0.0:3001/api/health
+2025-08-24T15:26:01: 
+Shutting down gracefully...
+2025-08-24T15:26:01: Database connection closed.
+2025-08-24T15:26:02: Backend API server running on http://0.0.0.0:3001
+2025-08-24T15:26:02: Health check: http://0.0.0.0:3001/api/health
+2025-08-25T12:39:16: Backend API server running on http://0.0.0.0:3001
+2025-08-25T12:39:16: Health check: http://0.0.0.0:3001/api/health

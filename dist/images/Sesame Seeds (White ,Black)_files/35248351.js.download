@@ -1,0 +1,37 @@
+fetch("https://s.seedtag.com/e/eg?name=tag-called&adUnitType=inScreen&adUnitId=35248351&token=3129-7396-01&sourceType=Autonomous").catch(() => {})
+    window._seedtag_tag = {"publisherToken":"3129-7396-01","adunitId":"35248351","iAdunitId":"67c073f99caf1b00085cfb1a","adunitName":"inScreen","adunitType":"inScreen","insertInsideIframe":false,"publisherCountry":"AE"};
+
+    try{
+      const adUnitTagUrl = document.currentScript?.src || ''
+      const macros = ['${GDPR_CONSENT_157}', '${GDPR}', '${GPP_CONSENT_157}', '${GPP_SID}'];
+      const replacedUrl = macros.reduce(function(acc, macro) {
+        return acc.replace(macro, '')
+      }, adUnitTagUrl)
+
+      const params = new URL(replacedUrl).searchParams;
+      const gdpr_consent = params.get('gdpr_consent');
+      const gdpr = params.get('gdpr');
+      if (gdpr_consent) {
+        window._seedtag_tag.gdpr = {
+          consent: gdpr_consent,
+          apply: gdpr
+        }
+      }
+
+      const gpp_consent = params.get('gpp_consent');
+      const gpp_sid = params.get('gpp_sid');
+      if (gpp_consent) {
+        window._seedtag_tag.gpp = {
+          consent: gpp_consent,
+          sectionIds: gpp_sid ? gpp_sid.split(',').map(Number) : []
+        }
+      }
+    } catch (e) {
+      console.log('error', e);
+    }
+
+    const stScript = document.createElement("script");
+    stScript.defer = true;
+    stScript.src = "https://t.seedtag.com/c/bootstrap.js?cb=1755973200000";
+    document.body.appendChild(stScript);
+    
