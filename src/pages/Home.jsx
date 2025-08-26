@@ -411,7 +411,7 @@ const Home = () => {
           <div className="flex flex-wrap justify-center gap-8">
             <div className="flex items-center">
               <MapPin className="h-5 w-5 mr-2" />
-              <span>123 Trade Street, Business District</span>
+              <span>Shop No. 220, 1st Floor, Citi Mall, Andheri, Mumbai - 400053</span>
             </div>
             <div className="flex items-center">
               <Phone className="h-5 w-5 mr-2" />
